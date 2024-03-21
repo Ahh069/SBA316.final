@@ -1,8 +1,10 @@
 body{
-    border: solid black;
-    width: auto;
+    width:500px;
     text-align: center;
-    padding: 20px;
-    margin:auto;
-    background-color: blanchedalmond;
-}
+    border: solid black;
+    float: center;
+        width: 33.33%;
+        padding: 15px;
+    background-color: aquamarine;
+    
+    }
