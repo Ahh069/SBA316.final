@@ -53,7 +53,15 @@ document.getElementById('registerBtn').addEventListener('mouseover', handleMouse
 
         }
 
-        
+        // Register event listener for form submission
+document.getElementById('registrationForm').addEventListener('submit', function(event) {
+    // Prevent the default form submission
+    event.preventDefault();
+
+    // Your form submission handling logic here
+    // For now, let's just log a message
+    console.log('Form submitted!');
+});
 
 
 
