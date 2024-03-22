@@ -45,6 +45,16 @@ document.body.appendChild(aTag);
 // body.style.backgroundColor = 'blue';
 // console.log()
 
+// Register at least two different event listeners and create the associated event handler functions.
+document.getElementById('registerBtn').addEventListener('mouseover', handleMouseOver);
+
+        function handleMouseOver() {
+            alert('Hovering over the Register button!');
+
+        }
+
+        
+
 
 
 
