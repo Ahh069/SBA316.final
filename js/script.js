@@ -53,13 +53,10 @@ document.getElementById('registerBtn').addEventListener('mouseover', handleMouse
 
         }
 
-        // Register event listener for form submission
+// Include at least one form and/or input with HTML attribute validation.
 document.getElementById('registrationForm').addEventListener('submit', function(event) {
-    // Prevent the default form submission
-    event.preventDefault();
 
-    // Your form submission handling logic here
-    // For now, let's just log a message
+    event.preventDefault();
     console.log('Form submitted!');
 });
 
