@@ -1,5 +1,5 @@
 // Cache at least one element using selectElementById.
-let firstName = document.getElementById('First Name');
-console.log(firstName);
+const title = document.getElementById('main-heading');
+console.log(title);
 
-Cache at least one element using querySelector or querySelectorAll.
+// Cache at least one element using querySelector or querySelectorAll.
