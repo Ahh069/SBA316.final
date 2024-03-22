@@ -21,4 +21,22 @@ aTag.textContent = "About Us";
 aTag.setAttribute('href', 'https://www.google.com');
 console.log(aTag);
 
+// Iterate over a collection of elements to accomplish some task.
+document.addEventListener("DOMContentLoaded", function() {
+    var registerBtn = document.getElementById("registerBtn");
+    registerBtn.addEventListener("click", function() {
+        // Iterate over input fields and log their IDs and values
+        var inputs = document.querySelectorAll('input[type="text"], input[type="date"], input[type="radio"], input[type="checkbox"]');
+        inputs.forEach(function(input) {
+            console.log("Input ID:", input.id, "Value:", input.value);
+        });
+    });
+});
+
+// Use appendChild and/or prepend to add new elements to the DOM.
+document.body.appendChild(aTag);
+
+// Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
+pEl.textContent = 'comment for <strong>Today</strong>';
+
 
