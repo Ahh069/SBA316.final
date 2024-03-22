@@ -8,3 +8,10 @@ body{
     background-color: aquamarine;
     
     }
+    #message {
+        color: black; /* Initial color */
+        transition: color 0.3s ease; /* Smooth transition */
+    }
+    #message:hover {
+        color: red; /* Color change on hover */
+    }

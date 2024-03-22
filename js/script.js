@@ -41,6 +41,12 @@ document.addEventListener("DOMContentLoaded", function () {
 // Use appendChild and/or prepend to add new elements to the DOM.
 document.body.appendChild(aTag);
 
+// Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.
+body.style.backgroundColor = 'blue';
+console.log()
+
+
+
 
 
 
